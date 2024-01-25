@@ -7,10 +7,16 @@ Uses the local packages/helloword forked from (https://github.com/coolsnowwolf/p
 
 ```
 luci-app-ssr-plus (Fix the rule with gfw mode / restarting without killing kcptun)
+
 luci-app-kcptun (Brackets with $server variable for support IPv6 address)
+
 luci-app-udp2raw (Brackets with ${listen_addr} / ${server_addr} variables for support IPv6 address)
-udp2raw (Makefile downgrades to stable version of 0.45.0)
-kcptun (Makefile downgrades to stable version 20210922)
+
+udp2raw (Makefile that have downgrades to stable version of 0.45.0)
+
+kcptun (Makefile that have downgrades to stable version 20210922)
+
+frpc (Makefile that have removed upx compression - since the compressed bin can't run well)
 ```
 
 # What's New
