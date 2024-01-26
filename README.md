@@ -3,22 +3,6 @@
 # Feeds
 Uses the local packages/helloword forked from (https://github.com/coolsnowwolf/packages) (https://github.com/fw876/helloworld.git)
 
-# Fix issues
-
-```
-luci-app-ssr-plus (Fix the rule with gfw mode / restarting without killing kcptun)
-
-luci-app-kcptun (Brackets with $server variable for support IPv6 address)
-
-luci-app-udp2raw (Brackets with ${listen_addr} / ${server_addr} variables for support IPv6 address)
-
-udp2raw (Makefile that have downgrades to stable version of 0.45.0)
-
-kcptun (Makefile that have downgrades to stable version 20210922)
-
-frpc (Makefile that have removed upx compression - since the compressed bin can't run well)
-```
-
 # What's New
 ```
 系统
@@ -45,3 +29,19 @@ USB-RNDIS 驱动
 PCIe: RTW8822BE, RTW8822CE, RTW8821CE, RTW8723DE
 USB: RTW8822BU, RTW8822CU, RTW8821CU, RTW8723DU
 SDIO: RTW8822BS, RTW8822CS, RTW8821CS, RTW8723DS
+
+# Fix issues
+
+```
+luci-app-ssr-plus (Fix the rule with gfw mode / restarting without killing kcptun)
+
+luci-app-kcptun (Brackets with $server variable for support IPv6 address)
+
+luci-app-udp2raw (Brackets with ${listen_addr} / ${server_addr} variables for support IPv6 address)
+
+udp2raw (Makefile that have downgrades to stable version of 0.45.0)
+
+kcptun (Makefile that have downgrades to stable version 20210922)
+
+frpc (Makefile that have removed upx compression - since the compressed bin can't run well)
+```
