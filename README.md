@@ -24,7 +24,7 @@ iPerf3, Socat, turbo ACC 网络加速, 多线多拨, NWAN3负载均衡
 集成驱动
 USB-RNDIS 驱动
 
-[Rtw88-usb 无线网卡驱动](https://github.com/ulli-kroll/rtw88-usb)
+Rtw88-usb 无线网卡驱动
 支持下列芯片卡：
 PCIe: RTW8822BE, RTW8822CE, RTW8821CE, RTW8723DE
 USB: RTW8822BU, RTW8822CU, RTW8821CU, RTW8723DU
@@ -33,6 +33,8 @@ SDIO: RTW8822BS, RTW8822CS, RTW8821CS, RTW8723DS
 
 # Fix issues
 
+- 云编译替换LEDE源码[Rtw88-usb无线网卡驱动](https://github.com/simonchen/rtw88)
+- 添加新的插件包：
 ```
 luci-app-ssr-plus (Fix the rule with gfw mode / restarting without killing kcptun)
 
