@@ -1,7 +1,8 @@
 基于Openwrt/LEDE编译的 Newifi D1 固件
 
 # Feeds
-Uses the local packages/helloword forked from (https://github.com/coolsnowwolf/packages) (https://github.com/fw876/helloworld.git)
+packages/helloword have been updated 
+(https://github.com/simonchen/packages) (https://github.com/simonchen/helloworld.git)
 
 # What's New
 ```
