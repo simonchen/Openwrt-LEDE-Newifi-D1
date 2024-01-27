@@ -22,6 +22,9 @@ Samba网络共享,FTP服务器
 网络
 iPerf3, Socat, turbo ACC 网络加速, 多线多拨, NWAN3负载均衡
 
+打印
+p910nd
+
 集成驱动
 USB-RNDIS 驱动
 
