@@ -38,6 +38,7 @@ SDIO: RTW8822BS, RTW8822CS, RTW8821CS, RTW8723DS
 # Fix issues
 
 - 云编译替换LEDE源码[Rtw88-usb无线网卡驱动](https://github.com/simonchen/rtw88)
+- 修复Shadowsocksr已知问题，添加Chinadns-ng作为DNS防污染
 - 添加新的插件包：
 ```
 luci-app-ssr-plus (Fix the rule with gfw mode / restarting without killing kcptun)
