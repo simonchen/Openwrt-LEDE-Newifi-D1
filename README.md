@@ -1,5 +1,7 @@
 基于Openwrt/LEDE编译的 Newifi D1 固件
 
+[Newifi-Lede 定制固件讨论](https://t.me/newifi_lede)
+
 # Feeds
 packages/helloword have been updated 
 (https://github.com/simonchen/packages) (https://github.com/simonchen/helloworld.git)
