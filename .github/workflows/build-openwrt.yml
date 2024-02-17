@@ -107,6 +107,13 @@ jobs:
         sed -i 's/lwfinger/simonchen/g' package/kernel/rtw88-usb/Makefile && \
         sed -i 's/PKG_SOURCE_VERSION.*/PKG_SOURCE_VERSION:=32d6735a0d9cfbfba323eafe2b2d478718a5a85f/g' package/kernel/rtw88-usb/Makefile && \
         sed -i 's/PKG_MIRROR_HASH.*/PKG_MIRROR_HASH:=5195f29a378886244ad06d0719f8b2fc4cab1d0ac884fa09458311567e8d7805/g' package/kernel/rtw88-usb/Makefile
+        echo -e "Upgrade upx Makefile"
+        [ -f package/lean/upx/Makefile ] && \
+        sed -i 's/PKG_VERSION.*/PKG_VERSION:=4.2.2/g' package/lean/upx/Makefile && \
+        sed -i 's/PKG_SOURCE_VERSION.*/PKG_SOURCE_VERSION:=099c3d829e80488af7395a4242b318877e980da4/g' package/lean/upx/Makefile && \
+        sed -i 's/PKG_MIRROR_HASH.*/PKG_MIRROR_HASH:=8bee3cd1ada2e4bfbe396348d2aecb3e044f92cdae2b7010838e36997fe6b3c3/g' package/lean/upx/Makefile && \
+        sed -i 's|$(CP) $(HOST_BUILD_DIR)/src/upx.out $(STAGING_DIR_HOST)/bin/upx|$(CP) $(HOST_BUILD_DIR)/build/release/upx $(STAGING_DIR_HOST)/bin/upx|' package/lean/upx/Makefile && \
+        rm -rf package/lean/upx/patches
 
     - name: Compile the firmware
       id: compile
