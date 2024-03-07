@@ -10,9 +10,10 @@ packages/helloword have been updated
 ```
 系统
 Diskman,文件传输
+Kcptun客户端，Udp2raw，FRP内网穿透客户端, SmartDNS
 
 服务
-SSR plus+, Adblock,全能推送,动态DDNS, QOS Nftables, 网络唤醒, KMS服务器, uPnP, OpenVPN, , NWAN3w分流助手
+SSR plus+, OpenClash, Passwall, Adblock,全能推送,动态DDNS, QOS Nftables, 网络唤醒, KMS服务器, uPnP, OpenVPN, , NWAN3w分流助手
 Kcptun客户端，Udp2raw，FRP内网穿透客户端, SmartDNS
 
 管控
@@ -20,6 +21,9 @@ Kcptun客户端，Udp2raw，FRP内网穿透客户端, SmartDNS
 
 网络存储
 Samba网络共享,FTP服务器
+
+VPN
+Zerotier
 
 网络
 iPerf3, Socat, turbo ACC 网络加速, 多线多拨, NWAN3负载均衡
