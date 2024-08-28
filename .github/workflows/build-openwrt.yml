@@ -108,7 +108,6 @@ jobs:
         sed -i 's/lwfinger/simonchen/g' package/kernel/rtw88-usb/Makefile && \
         sed -i 's/PKG_SOURCE_VERSION.*/PKG_SOURCE_VERSION:=32d6735a0d9cfbfba323eafe2b2d478718a5a85f/g' package/kernel/rtw88-usb/Makefile && \
         sed -i 's/PKG_MIRROR_HASH.*/PKG_MIRROR_HASH:=5195f29a378886244ad06d0719f8b2fc4cab1d0ac884fa09458311567e8d7805/g' package/kernel/rtw88-usb/Makefile && \
-        rm -rf package/kernel/rtw88-usb/patches
         echo -e "Upgrade upx Makefile"
         [ -f package/lean/upx/Makefile ] && \
         sed -i 's/PKG_VERSION.*/PKG_VERSION:=4.2.2/g' package/lean/upx/Makefile && \
