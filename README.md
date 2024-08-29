@@ -2,6 +2,10 @@
 
 [Newifi-Lede 定制固件讨论](https://t.me/newifi_lede)
 
+# Compile in Virtual Machine
+if you take 8 more threads (e.g, make -j8 V=s) to compile whole project, please make sure that you have sufficient memory assigned in virtual machine.
+4GB is lowest, 8GB more is perfectable that won't have unexpected failures.
+
 # Feeds
 packages/helloword have been updated 
 (https://github.com/simonchen/packages) (https://github.com/simonchen/helloworld.git)
